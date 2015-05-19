@@ -59,5 +59,3 @@
     ignoreWhitespaceOnCurrentLine: false
   "atom-beautify":
     analytics: false
-  "exception-reporting":
-    userId: "7eb11660-001b-73c2-c963-ba621983fb91"
