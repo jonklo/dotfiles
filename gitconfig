@@ -1,0 +1,7 @@
+[core]
+	quotepath = false
+	excludesfile = ~/.gitignore
+	editor = atom --wait
+[user]
+	name = Jon
+	email = jonklo@users.noreply.github.com

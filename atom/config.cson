@@ -1,0 +1,63 @@
+"*":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+    invisibles:
+      {}
+  core:
+    ignoredNames: [
+      "*.git"
+      "*.pyc"
+      "*.egg-info"
+      ".DS_Store"
+    ]
+    disabledPackages: [
+      "metrics"
+      "autocomplete"
+      "linter-jshint"
+    ]
+    themes: [
+      "one-dark-ui"
+      "Spacedust"
+    ]
+    audioBeep: false
+  "fuzzy-finder":
+    ignoredNames: [
+      "/**/migrations/*.py"
+    ]
+  "tree-view":
+    hideIgnoredNames: true
+  "autocomplete-plus":
+    autoActivationDelay: 300
+    confirmCompletion: "enter"
+  "autoclose-html":
+    closeOnEndOfOpeningTag: true
+    forceInline: [
+      "title"
+      "pre"
+    ]
+  linter:
+    lintOnChange: false
+    lintOnEditorFocus: false
+    subtleLinterErrors: [
+      "flake8"
+      "pylint"
+    ]
+  "linter-flake8":
+    executableDir: "/Users/jonklo/Code/tienda/bin/"
+    ignoreErrorCodes: [
+      "E128"
+      "E261"
+    ]
+    maxLineLength: 160
+  welcome:
+    showOnStartup: false
+  "linter-pylint":
+    rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
+    executable: "/Users/jonklo/Code/tienda/bin/pylint"
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "atom-beautify":
+    analytics: false
+  "exception-reporting":
+    userId: "7eb11660-001b-73c2-c963-ba621983fb91"
