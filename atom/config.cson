@@ -15,6 +15,7 @@
       "metrics"
       "autocomplete"
       "linter-jshint"
+      "language-django"
     ]
     themes: [
       "one-dark-ui"
@@ -36,13 +37,13 @@
       "title"
       "pre"
     ]
+    makNeverCloseeSelfClosing: false
+    additionalGrammars: [
+      "text.html.django"
+    ]
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
-    subtleLinterErrors: [
-      "flake8"
-      "pylint"
-    ]
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
     ignoreErrorCodes: [
@@ -50,8 +51,6 @@
       "E261"
     ]
     maxLineLength: 160
-  welcome:
-    showOnStartup: false
   "linter-pylint":
     rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
     executable: "/Users/jonklo/Code/tienda/bin/pylint"
@@ -59,3 +58,5 @@
     ignoreWhitespaceOnCurrentLine: false
   "atom-beautify":
     analytics: false
+  welcome:
+    showOnStartup: false
