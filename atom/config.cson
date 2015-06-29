@@ -2,8 +2,8 @@
   editor:
     preferredLineLength: 120
     tabLength: 4
-    invisibles:
-      {}
+    invisibles: {}
+    fontSize: 15
   core:
     ignoredNames: [
       "*.git"
@@ -44,6 +44,7 @@
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
+    lintOnFly: false
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
     ignoreErrorCodes: [
