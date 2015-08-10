@@ -13,8 +13,6 @@
     ]
     disabledPackages: [
       "metrics"
-      "autocomplete"
-      "linter-jshint"
       "language-django"
     ]
     themes: [
@@ -47,6 +45,7 @@
     lintOnFly: false
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
+    executablePath: "/Users/jonklo/Code/tienda/bin/flake8"
     ignoreErrorCodes: [
       "E128"
       "E261"
@@ -54,7 +53,7 @@
     maxLineLength: 160
   "linter-pylint":
     rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
-    executable: "/Users/jonklo/Code/tienda/bin/pylint"
+    executable: "/usr/local/bin/pylint"
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "atom-beautify":
