@@ -43,6 +43,8 @@
     lintOnChange: false
     lintOnEditorFocus: false
     lintOnFly: false
+  "linter-scss-lint":
+    executablePath: "/usr/bin/scss-lint"
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
     executablePath: "/Users/jonklo/Code/tienda/bin/flake8"
