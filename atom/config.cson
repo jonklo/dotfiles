@@ -15,11 +15,11 @@
       "metrics"
       "language-django"
     ]
+    audioBeep: false
     themes: [
       "one-dark-ui"
-      "Spacedust"
+      "spacedust"
     ]
-    audioBeep: false
   "fuzzy-finder":
     ignoredNames: [
       "/**/migrations/*.py"
@@ -44,7 +44,7 @@
     lintOnEditorFocus: false
     lintOnFly: false
   "linter-scss-lint":
-    executablePath: "/usr/bin/scss-lint"
+    executablePath: "/usr/local/bin/scss-lint"
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
     executablePath: "/Users/jonklo/Code/tienda/bin/flake8"
@@ -55,7 +55,9 @@
     maxLineLength: 160
   "linter-pylint":
     rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
-    executable: "/usr/local/bin/pylint"
+    executable: "/Users/jonklo/Code/tienda/bin/pylint"
+  "python-isort":
+    isortPath: "/Users/jonklo/Code/tienda/bin/isort"
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "atom-beautify":
