@@ -1,50 +1,48 @@
 "*":
-  editor:
-    preferredLineLength: 120
-    tabLength: 4
-    invisibles: {}
-    fontSize: 15
+  "atom-beautify":
+    analytics: false
+  "autoclose-html":
+    additionalGrammars: [
+      "text.html.django"
+    ]
+    closeOnEndOfOpeningTag: false
+    forceInline: [
+      "title"
+      "pre"
+    ]
+    makeNeverCloseSelfClosing: false
+  "autocomplete-plus":
+    autoActivationDelay: 200
+    confirmCompletion: "enter"
   core:
+    audioBeep: false
+    disabledPackages: [
+      "metrics"
+      "language-django"
+    ]
     ignoredNames: [
       "*.git"
       "*.pyc"
       "*.egg-info"
       ".DS_Store"
     ]
-    disabledPackages: [
-      "metrics"
-      "language-django"
-    ]
-    audioBeep: false
     themes: [
       "one-dark-ui"
       "spacedust"
     ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    preferredLineLength: 120
+    tabLength: 4
   "fuzzy-finder":
     ignoredNames: [
       "/**/migrations/*.py"
-    ]
-  "tree-view":
-    hideIgnoredNames: true
-  "autocomplete-plus":
-    autoActivationDelay: 300
-    confirmCompletion: "enter"
-  "autoclose-html":
-    closeOnEndOfOpeningTag: true
-    forceInline: [
-      "title"
-      "pre"
-    ]
-    makNeverCloseeSelfClosing: false
-    additionalGrammars: [
-      "text.html.django"
     ]
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
     lintOnFly: false
-  "linter-scss-lint":
-    executablePath: "/usr/local/bin/scss-lint"
   "linter-flake8":
     executableDir: "/Users/jonklo/Code/tienda/bin/"
     executablePath: "/Users/jonklo/Code/tienda/bin/flake8"
@@ -54,13 +52,15 @@
     ]
     maxLineLength: 160
   "linter-pylint":
-    rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
     executable: "/Users/jonklo/Code/tienda/bin/pylint"
+    rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
+  "linter-scss-lint":
+    executablePath: "/usr/local/bin/scss-lint"
   "python-isort":
     isortPath: "/Users/jonklo/Code/tienda/bin/isort"
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-  "atom-beautify":
-    analytics: false
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
