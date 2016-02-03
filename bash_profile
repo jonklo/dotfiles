@@ -21,7 +21,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 # gettext (installed with Homebrew)
-export PATH=$PATH:/usr/local/Cellar/gettext/0.19.6/bin
+export PATH=$PATH:/usr/local/Cellar/gettext/0.19.7/bin
 
 # Rabbitmq (installed with Homebrew)
 export PATH=$PATH:/usr/local/sbin
