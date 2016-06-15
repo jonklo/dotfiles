@@ -1,6 +1,7 @@
 "*":
   "atom-beautify":
-    analytics: false
+    general:
+      analytics: false
   "autoclose-html":
     additionalGrammars: [
       "text.html.django"
@@ -31,7 +32,6 @@
       "spacedust"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
     preferredLineLength: 120
     tabLength: 4
@@ -44,16 +44,12 @@
     lintOnEditorFocus: false
     lintOnFly: false
   "linter-flake8":
-    executableDir: "/Users/jonklo/Code/tienda/bin/"
-    executablePath: "/Users/jonklo/Code/tienda/bin/flake8"
-    ignoreErrorCodes: [
-      "E128"
-      "E261"
-    ]
-    maxLineLength: 160
+    executableDir: "$PROJECT/bin/"
+    executablePath: "$PROJECT/bin/flake8"
+    projectConfigFile: "config/linters/flake8.rc"
   "linter-pylint":
-    executable: "/Users/jonklo/Code/tienda/bin/pylint"
-    rcFile: "/Users/jonklo/Code/tienda/config/linters/pylint.rc"
+    executable: "%p/bin/pylint"
+    rcFile: "config/linters/pylint.rc"
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
   "python-isort":
