@@ -18,10 +18,10 @@ alias pypath='python -c "from distutils.sysconfig import get_python_lib; print(g
 export PATH=$PATH:/usr/local/mysql/bin
 
 # Postgres command line tools
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 # gettext (installed with Homebrew)
-export PATH=$PATH:/usr/local/Cellar/gettext/0.19.7/bin
+export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
 
 # Rabbitmq (installed with Homebrew)
 export PATH=$PATH:/usr/local/sbin
