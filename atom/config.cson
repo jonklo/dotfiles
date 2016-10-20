@@ -27,6 +27,7 @@
       "*.egg-info"
       ".DS_Store"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "spacedust"
@@ -46,7 +47,9 @@
   "linter-flake8":
     executableDir: "$PROJECT/bin/"
     executablePath: "$PROJECT/bin/flake8"
-    projectConfigFile: "config/linters/flake8.rc"
+    projectConfigFile: [
+      "config/linters/flake8.rc"
+    ]
   "linter-pylint":
     executable: "%p/bin/pylint"
     rcFile: "config/linters/pylint.rc"
