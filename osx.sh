@@ -3,6 +3,9 @@
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool true
 
+# Disable new window animation
+defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
 
