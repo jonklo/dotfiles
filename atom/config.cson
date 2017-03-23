@@ -45,7 +45,6 @@
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
-    lintOnFly: false
   "linter-flake8":
     executableDir: "$PROJECT/bin/"
     executablePath: "$PROJECT/bin/flake8"
@@ -57,6 +56,8 @@
     rcFile: "config/linters/pylint.rc"
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
+  "linter-ui-default":
+    showPanel: true
   "python-isort":
     isortPath: "/Users/jonklo/Code/tienda/bin/isort"
   "tree-view":
