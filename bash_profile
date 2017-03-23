@@ -33,3 +33,9 @@ export PATH=$PATH:/usr/local/heroku/bin
 # http://stackoverflow.com/questions/22703393/clang-error-unknown-argument-mno-fused-madd-wunused-command-line-argumen
 export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
+
+# Add SSH key to the ssh-agent
+ssh-add -K ~/.ssh/id_rsa
+
+# added by Miniconda2 4.2.12 installer
+export PATH="/Users/jonklo/miniconda2/bin:$PATH"
