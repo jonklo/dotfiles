@@ -52,7 +52,7 @@
       "config/linters/flake8.rc"
     ]
   "linter-pylint":
-    executable: "%p/bin/pylint"
+    executablePath: "%p/bin/pylint"
     rcFile: "config/linters/pylint.rc"
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
