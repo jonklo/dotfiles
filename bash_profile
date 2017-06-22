@@ -26,8 +26,8 @@ export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
 # Rabbitmq (installed with Homebrew)
 export PATH=$PATH:/usr/local/sbin
 
-# Heroku Toolbelt
-export PATH=$PATH:/usr/local/heroku/bin
+# Fastlane (installed with Homebrew)
+export PATH=$PATH:$HOME/.fastlane/bin
 
 # Temporary fix for compiler
 # http://stackoverflow.com/questions/22703393/clang-error-unknown-argument-mno-fused-madd-wunused-command-line-argumen
@@ -38,4 +38,4 @@ export CPPFLAGS=-Qunused-arguments
 ssh-add -K ~/.ssh/id_rsa
 
 # added by Miniconda2 4.2.12 installer
-export PATH="/Users/jonklo/miniconda2/bin:$PATH"
+export PATH="$HOME/miniconda2/bin:$PATH"

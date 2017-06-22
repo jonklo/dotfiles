@@ -29,6 +29,7 @@
       "*.egg-info"
       ".DS_Store"
     ]
+    reopenProjectMenuCount: 10
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -52,6 +53,7 @@
       "config/linters/flake8.rc"
     ]
   "linter-pylint":
+    disableTimeout: true
     executablePath: "%p/bin/pylint"
     rcFile: "config/linters/pylint.rc"
   "linter-scss-lint":
