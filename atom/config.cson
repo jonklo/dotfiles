@@ -46,6 +46,7 @@
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
+  "linter-eslint": {}
   "linter-flake8":
     executableDir: "$PROJECT/bin/"
     executablePath: "$PROJECT/bin/flake8"
