@@ -8,14 +8,8 @@ export LANG=en_US.UTF-8
 alias ll='ls -lG'
 alias la='ls -AlG'
 
-# Open in Gitbox
-alias gitbox="open -a Gitbox"
-
 # Prints out the Python site packages path
 alias pypath='python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"'
-
-# MySQL command line tools
-export PATH=$PATH:/usr/local/mysql/bin
 
 # Postgres command line tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
