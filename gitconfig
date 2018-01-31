@@ -5,3 +5,5 @@
 [user]
 	name = Jon
 	email = jonklo@users.noreply.github.com
+[mergetool]
+	keepBackup = true

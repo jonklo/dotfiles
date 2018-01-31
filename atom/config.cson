@@ -17,11 +17,15 @@
     confirmCompletion: "enter"
   "autocomplete-python":
     useKite: false
+  "autoupdate-packages":
+    handling: "Update automatically and silently"
+    lastUpdateTimestamp: 1517400659284
   core:
     audioBeep: false
     disabledPackages: [
       "metrics"
       "language-django"
+      "linter-eslint"
     ]
     ignoredNames: [
       "*.git"
@@ -46,7 +50,8 @@
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
-  "linter-eslint": {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
   "linter-flake8":
     executableDir: "$PROJECT/bin/"
     executablePath: "$PROJECT/bin/flake8"
@@ -60,7 +65,7 @@
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 236
   "python-isort":
     isortPath: "/Users/jonklo/Code/tienda/bin/isort"
   "tree-view":
