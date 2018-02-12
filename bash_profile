@@ -31,5 +31,9 @@ export CPPFLAGS=-Qunused-arguments
 # Add SSH key to the ssh-agent
 ssh-add -K ~/.ssh/id_rsa
 
-# added by Miniconda2 4.2.12 installer
-export PATH="$HOME/miniconda2/bin:$PATH"
+# added by Miniconda3 installer
+export PATH="/Users/jonklo/miniconda3/bin:$PATH"
+
+# Tienda aliases
+alias sat='source activate tienda'
+alias pym='python manage.py'
