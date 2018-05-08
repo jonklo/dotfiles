@@ -19,7 +19,7 @@
     useKite: false
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1518432006627
+    lastUpdateTimestamp: 1525771983460
   core:
     audioBeep: false
     disabledPackages: [
@@ -56,21 +56,22 @@
   "linter-flake8":
     executableDir: "$PROJECT/bin/"
     executablePath: "/Users/jonklo/miniconda3/envs/tienda/bin/flake8"
-    projectConfigFile: [
-      "config/linters/flake8.rc"
-    ]
   "linter-pylint":
     disableTimeout: true
     executablePath: "/Users/jonklo/miniconda3/envs/tienda/bin/pylint"
-    rcFile: "config/linters/pylint.rc"
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
+  "linter-stylelint":
+    showIgnored: true
   "linter-ui-default":
     panelHeight: 236
+    showPanel: true
   "python-isort":
     isortPath: "/Users/jonklo/miniconda3/envs/tienda/bin/isort"
+    sortOnSave: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace:
