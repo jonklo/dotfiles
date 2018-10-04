@@ -2,6 +2,12 @@
   "atom-beautify":
     general:
       analytics: false
+  "atom-ide-ui":
+    "atom-ide-outline-view": {}
+  "atom-package-deps":
+    ignored: [
+      "linter-pylint"
+    ]
   "autoclose-html":
     additionalGrammars: [
       "text.html.django"
@@ -19,14 +25,14 @@
     useKite: false
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1525771983460
+    lastUpdateTimestamp: 1538638051259
   core:
     audioBeep: false
     disabledPackages: [
       "metrics"
       "language-django"
-      "linter-eslint"
       "exception-reporting"
+      "linter-mypy"
     ]
     ignoredNames: [
       "*.git"
@@ -41,6 +47,7 @@
       "spacedust"
     ]
   editor:
+    fontSize: 15
     invisibles: {}
     preferredLineLength: 120
     tabLength: 4
