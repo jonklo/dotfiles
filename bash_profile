@@ -38,6 +38,9 @@ ssh-add -K ~/.ssh/id_rsa
 # added by Miniconda3 installer
 export PATH="/Users/jonklo/miniconda3/bin:$PATH"
 
+# GPG
+export GPG_TTY=$(tty)
+
 # Tienda aliases
 alias sat='source activate tienda'
 alias pym='python manage.py'

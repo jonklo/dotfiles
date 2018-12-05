@@ -5,5 +5,10 @@
 [user]
 	name = Jon
 	email = jonklo@users.noreply.github.com
+	signkey = 0F8B1458A6962241
 [mergetool]
 	keepBackup = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
