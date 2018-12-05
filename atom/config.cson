@@ -3,6 +3,12 @@
     general:
       analytics: false
   "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+      formatOnType: false
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDirectoryColumn: true
     "atom-ide-outline-view": {}
   "atom-package-deps":
     ignored: [
