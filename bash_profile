@@ -27,11 +27,6 @@ export PATH=$PATH:/usr/local/sbin
 # Fastlane (installed with Homebrew)
 export PATH=$PATH:$HOME/.fastlane/bin
 
-# Temporary fix for compiler
-# http://stackoverflow.com/questions/22703393/clang-error-unknown-argument-mno-fused-madd-wunused-command-line-argumen
-export CFLAGS=-Qunused-arguments
-export CPPFLAGS=-Qunused-arguments
-
 # Add SSH key to the ssh-agent
 ssh-add -K ~/.ssh/id_rsa
 
