@@ -79,8 +79,7 @@
   "linter-ui-default":
     panelHeight: 236
     showPanel: true
-  "python-black":
-    skipStringNormalization: true
+  "python-black": {}
   "python-isort":
     isortPath: "/Users/jonklo/miniconda3/envs/tienda/bin/isort"
     sortOnSave: true
