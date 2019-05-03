@@ -21,9 +21,6 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 # gettext (installed with Homebrew)
 export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
 
-# Rabbitmq (installed with Homebrew)
-export PATH=$PATH:/usr/local/sbin
-
 # Fastlane (installed with Homebrew)
 export PATH=$PATH:$HOME/.fastlane/bin
 
