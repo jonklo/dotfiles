@@ -24,11 +24,6 @@
       "pre"
     ]
     makeNeverCloseSelfClosing: false
-  "autocomplete-plus":
-    autoActivationDelay: 200
-    confirmCompletion: "enter"
-  "autocomplete-python":
-    useKite: false
   "autoupdate-packages":
     handling: "Update automatically and silently"
     lastUpdateTimestamp: 1538638051259
@@ -72,8 +67,6 @@
   "linter-pylint":
     disableTimeout: true
     executablePath: "/Users/jonklo/miniconda3/envs/tienda/bin/pylint"
-  "linter-scss-lint":
-    executablePath: "/usr/local/bin/scss-lint"
   "linter-stylelint":
     showIgnored: true
   "linter-ui-default":
