@@ -61,12 +61,8 @@
     lintOnEditorFocus: false
   "linter-eslint":
     disableWhenNoEslintConfig: false
-  "linter-flake8":
-    executableDir: "$PROJECT/bin/"
-    executablePath: "/Users/jonklo/miniconda3/envs/tienda/bin/flake8"
-  "linter-pylint":
-    disableTimeout: true
-    executablePath: "/Users/jonklo/miniconda3/envs/tienda/bin/pylint"
+  "linter-flake8": {}
+  "linter-pylint": {}
   "linter-stylelint":
     showIgnored: true
   "linter-ui-default":

@@ -24,15 +24,12 @@ export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
 # Fastlane (installed with Homebrew)
 export PATH=$PATH:$HOME/.fastlane/bin
 
-# Add SSH key to the ssh-agent
-ssh-add -K ~/.ssh/id_rsa
-
-# added by Miniconda3 installer
-export PATH="/Users/jonklo/miniconda3/bin:$PATH"
-
 # GPG
 export GPG_TTY=$(tty)
 
-# Tienda aliases
-alias sat='source activate tienda'
-alias pym='python manage.py'
+# Add SSH key to the ssh-agent
+ssh-add -K ~/.ssh/id_rsa
+
+# Enable pyenv and auto-activation of virtualenvs
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
