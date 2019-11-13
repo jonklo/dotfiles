@@ -70,6 +70,9 @@
   "linter-ui-default":
     panelHeight: 236
     showPanel: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
   "python-black":
     binPath: "/Users/jonklo/.pyenv/versions/tienda-3.6.7/bin/black"
   "python-isort":
