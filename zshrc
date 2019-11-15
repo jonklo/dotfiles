@@ -1,8 +1,4 @@
-# .bash_profile
-
-# Fixes UTF-8 errors produced by Python
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
+# .zshrc runs for each new Terminal session
 
 # Some ls aliases
 alias ll='ls -lG'
@@ -23,6 +19,9 @@ export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
 
 # Fastlane (installed with Homebrew)
 export PATH=$PATH:$HOME/.fastlane/bin
+
+# Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
 
 # GPG
 export GPG_TTY=$(tty)
