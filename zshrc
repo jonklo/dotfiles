@@ -14,12 +14,6 @@ export HOMEBREW_CASK_OPTS=--require-sha
 # Postgres command line tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
-# gettext (installed with Homebrew)
-export PATH=$PATH:/usr/local/Cellar/gettext/0.19.8.1/bin
-
-# Fastlane (installed with Homebrew)
-export PATH=$PATH:$HOME/.fastlane/bin
-
 # Homebrew's sbin
 export PATH="/usr/local/sbin:$PATH"
 
