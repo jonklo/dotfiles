@@ -56,6 +56,10 @@
     ignoredNames: [
       "/**/migrations/*.py"
     ]
+  "ide-python":
+    pylsPlugins:
+      pycodestyle:
+        enabled: false
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
@@ -73,10 +77,13 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      excludedGlobs: [
+        "*.html"
+      ]
   "python-black":
-    binPath: "/Users/jonklo/.pyenv/versions/tienda-3.6.7/bin/black"
+    binPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/black"
   "python-isort":
-    isortPath: "/Users/jonklo/.pyenv/versions/tienda-3.6.7/bin/isort"
+    isortPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/isort"
     sortOnSave: true
   "tree-view":
     hideIgnoredNames: true
