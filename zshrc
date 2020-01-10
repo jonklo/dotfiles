@@ -23,6 +23,9 @@ export GPG_TTY=$(tty)
 # Add SSH key to the ssh-agent
 ssh-add -K ~/.ssh/id_rsa
 
+# Poetry, Python package manager
+export PATH="$PATH:$HOME/.poetry/bin"
+
 # Enable pyenv and auto-activation of virtualenvs
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
