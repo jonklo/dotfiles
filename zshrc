@@ -29,3 +29,6 @@ export PATH="$PATH:$HOME/.poetry/bin"
 # Enable pyenv and auto-activation of virtualenvs
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# https://direnv.net/docs/hook.html
+eval "$(direnv hook zsh)"
