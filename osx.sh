@@ -15,3 +15,6 @@ defaults write com.apple.mail DisableSendAnimations -bool true
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+# Xcode: show build duration for project
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool true
