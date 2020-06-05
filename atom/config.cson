@@ -68,6 +68,9 @@
       disableWhenNoEslintConfig: false
   "linter-flake8":
     executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/flake8"
+  "linter-mypy":
+    executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/python"
+    mypyPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/mypy"
   "linter-pylint":
     executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/pylint"
   "linter-stylelint":
