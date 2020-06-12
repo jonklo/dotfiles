@@ -5,7 +5,7 @@
 [user]
 	name = Jon
 	email = jonklo@users.noreply.github.com
-	signkey = 0F8B1458A6962241
+	signingkey = 0F8B1458A6962241
 [mergetool]
 	keepBackup = true
 [commit]
