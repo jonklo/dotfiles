@@ -20,9 +20,6 @@ export PATH="/usr/local/sbin:$PATH"
 # GPG
 export GPG_TTY=$(tty)
 
-# Add SSH key to the ssh-agent
-ssh-add -K ~/.ssh/id_rsa
-
 # Poetry, Python package manager
 export PATH="$PATH:$HOME/.poetry/bin"
 
