@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ln -s ~/Code/dotfiles/bash_profile ~/.bash_profile
+ln -s ~/Code/dotfiles/zshrc ~/.zshrc
 ln -s ~/Code/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Code/dotfiles/gitignore ~/.gitignore
 
