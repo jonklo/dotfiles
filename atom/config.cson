@@ -26,7 +26,7 @@
     makeNeverCloseSelfClosing: false
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1583311933160
+    lastUpdateTimestamp: 1598280869941
   core:
     audioBeep: false
     disabledPackages: [
@@ -67,12 +67,13 @@
     disabling:
       disableWhenNoEslintConfig: false
   "linter-flake8":
-    executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/flake8"
+    executablePath: "/Users/jonklo/Code/tienda/.venv/bin/flake8"
   "linter-mypy":
     executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/python"
     mypyPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/mypy"
   "linter-pylint":
-    executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/pylint"
+    disableTimeout: true
+    executablePath: "/Users/jonklo/Code/tienda/.venv/bin/pylint"
   "linter-stylelint":
     showIgnored: true
   "linter-ui-default":
@@ -85,9 +86,9 @@
         "*.html"
       ]
   "python-black":
-    binPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/black"
+    binPath: "/Users/jonklo/Code/tienda/.venv/bin/black"
   "python-isort":
-    isortPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/isort"
+    isortPath: "/Users/jonklo/Code/tienda/.venv/bin/isort"
     sortOnSave: true
   "tree-view":
     hideIgnoredNames: true
