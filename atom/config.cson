@@ -10,6 +10,8 @@
       autoVisibility: true
       showDirectoryColumn: true
     "atom-ide-outline-view": {}
+  "atom-isort":
+    sortOnSave: true
   "atom-package-deps":
     ignored: [
       "linter-pylint"
@@ -26,14 +28,12 @@
     makeNeverCloseSelfClosing: false
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1598280869941
+    lastUpdateTimestamp: 1615800369434
   core:
     audioBeep: false
     disabledPackages: [
       "metrics"
-      "language-django"
       "exception-reporting"
-      "linter-mypy"
     ]
     ignoredNames: [
       "*.git"
@@ -60,6 +60,7 @@
     pylsPlugins:
       pycodestyle:
         enabled: false
+    python: "/Users/jonklo/Code/tienda/.venv/bin/python"
   linter:
     lintOnChange: false
     lintOnEditorFocus: false
@@ -69,12 +70,14 @@
   "linter-flake8":
     executablePath: "/Users/jonklo/Code/tienda/.venv/bin/flake8"
   "linter-mypy":
-    executablePath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/python"
-    mypyPath: "/Users/jonklo/.pyenv/versions/tienda-3.7.5/bin/mypy"
+    executablePath: "/Users/jonklo/Code/tienda/.venv/bin/python"
+    mypyIniFile: "/Users/jonklo/Code/tienda/setup.cfg"
+    mypyNotifyInternalError: false
   "linter-pylint":
     disableTimeout: true
     executablePath: "/Users/jonklo/Code/tienda/.venv/bin/pylint"
   "linter-stylelint":
+    fixOnSave: true
     showIgnored: true
   "linter-ui-default":
     panelHeight: 236
